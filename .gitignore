@@ -1,0 +1,74 @@
+# Ignorar archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignorar carpetas de dependencias
+/node_modules
+/bin
+/obj
+/.vs
+/.vscode
+/.idea
+/.angular
+/.dist
+/.output
+
+# Ignorar archivos de compilación y ejecución
+*.suo
+*.user
+*.cache
+*.log
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.pdb
+*.ilk
+*.ncb
+*.sdf
+
+# Ignorar archivos de paquetes NuGet
+/packages
+*.nupkg
+
+# Ignorar archivos de entorno y claves
+.env
+.env.local
+*.key
+*.cert
+*.pfx
+
+# Ignorar archivos de migraciones de Entity Framework (si no se desean rastrear)
+/Migrations
+
+# Ignorar archivos generados por el frontend
+/dist
+/build
+/.next
+/out
+/.svelte-kit
+
+# Ignorar archivos de logs y reportes de cobertura
+/coverage
+/logs
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de usuario específicos
+*.userprefs
+
+# Ignorar archivos de caché de IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Ignorar archivos de configuración de Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Ignorar archivos de configuración de Azure
+azure-pipelines.yml
